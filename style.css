@@ -72,3 +72,50 @@ a {
     border-radius: 10px;
     margin-top: 8px;
 }
+
+/* information */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+    gap: 32px;
+}
+
+#information-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937
+}
+
+.cards {
+    display: flex;
+    gap: 32px;
+}
+
+.box {
+    border: 2px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+}
+
+.card-text {
+    font-size: 18px;
+    color: gray;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
