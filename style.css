@@ -74,13 +74,13 @@ a {
 }
 
 /* information */
-
 .information {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 32px;
+    padding-top: 32px;
+    padding-bottom: 128px;
     gap: 32px;
 }
 
@@ -118,4 +118,27 @@ a {
     width: 200px;
     height: 200px;
     border-radius: 8px;
+}
+
+/* quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 128px 256px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.quote-name {
+    font-weight: 800;
+    color: #1f2937;
+    align-self: flex-end;
 }
