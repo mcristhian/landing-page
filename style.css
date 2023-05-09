@@ -94,6 +94,7 @@ a {
     gap: 32px;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .card img {
