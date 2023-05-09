@@ -36,12 +36,12 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 16px 128px;
+    padding: 16px 10%;
 }
 
 .header-main {
     background-color: #1f2937;
-    padding: 64px 128px;
+    padding: 64px 10%;
     display: flex;
     gap: 32px;
 }
@@ -79,32 +79,28 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 128px;
-    gap: 32px;
+    padding: 64px 10%;
 }
 
 #information-title {
     font-size: 36px;
     font-weight: 800;
-    color: #1f2937
+    color: #1f2937;
+    margin-bottom: 32px;
 }
 
 .cards {
     display: flex;
     gap: 32px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.box {
+.card img {
     border: 2px solid #3882f6;
     width: 200px;
     height: 200px;
     border-radius: 10px;
-}
-
-.card {
-    width: 200px;
-    height: 200px;
 }
 
 .card-text {
@@ -114,12 +110,6 @@ a {
     text-align: center;
 }
 
-.card img {
-    width: 200px;
-    height: 200px;
-    border-radius: 8px;
-}
-
 /* quote */
 .quote {
     display: flex;
@@ -127,7 +117,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    padding: 128px 256px;
+    padding: 64px 18%;
 }
 
 .quote-text {
@@ -149,13 +139,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 64px 128px; 
+    padding: 64px 10%; 
 }
 
 .bar {
     background-color: #3882f6;
     display: flex;
-    padding: 32px 128px;
+    padding: 32px 10%;
     justify-content: space-between;
     border-radius: 10px;
     flex: 1;
